@@ -31,10 +31,10 @@ export default class Fruit extends Component {
         return (
             <div className='card'>
                 <section>
-                    <img src={fruit.img} alt={fruit.name} onClick={() => this.props.changeFruit(fruit.name)}></img>
                     <h1>{fruit.name}</h1>
+                    <img src={fruit.img} alt={fruit.name} onClick={() => this.props.changeFruit(fruit.name)}></img>
                 </section>
-                <section>
+                <section className='serving'>
                     <button onClick={this.handleClick} name={fruit.name}>-</button>
                     <input type='text' className='count' value={`${this.state.count * 100}g`} />
                     <button onClick={this.handleClick} name={fruit.name}>+</button>

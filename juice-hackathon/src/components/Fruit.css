@@ -1,21 +1,24 @@
 .card {
     width: 300px;
     height: max-content;
-    min-height: 300px;
-    box-shadow: 0 12px 12px -6px gray;
-    border-radius: 5px;
-    background-color: rgb(40, 40, 40);
-    color: white;
+    min-height: 360px;
+    box-shadow: 8px 8px 8px -6px rgb(32, 116, 46);
+    background-image: url('https://easybadges-easybadges.netdna-ssl.com/wp-content/uploads/2016/05/ID-card-template-corporate-10-background.png');     border-radius: 10px;
+    color: #03330B;
     border: 1px solid green;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.card h1, h2 {
+    margin-top: 0;
 }
 
 img {
-    height: auto;
-    width: 75%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
     margin: 20px;
-    min-height: 100px;
-    max-height: 200px;
 }
 
 .count {
@@ -25,3 +28,4 @@ img {
     text-align: center;
     font-size: 0.8rem;
 }
+

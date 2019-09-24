@@ -1,15 +1,22 @@
 .container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row nowrap;
+    justify-content: center;
     margin: 10px;
 }
 
-
+.container > * {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 .fruit-container {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     column-gap: 20px;
-    row-gap: 10px;
+    row-gap: 15px;
+}
+
+.detail-card > div {
+    margin-bottom: 20px;
 }

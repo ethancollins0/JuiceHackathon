@@ -17,15 +17,15 @@ const DetailCard = ({ juice }) => {
 
     return (
         <div className='card'>
-            <h1>Your Concoction</h1>
+            <h2>Your Concoction</h2>
             <p>Protein: {protein}g</p>
             <p>Fat: {fat}g</p>
             <p>Carbs: {carbohydrates}g</p>
             <p>Calories: {calories} cals</p>
             <p>Calcium: {calcium}mg</p>
-            <p>Sugar: {sugar}</p>
+            <p>Sugar: {sugar}g</p>
             <p>Potassium: {potassium}mg</p>
-            <p>vitaminA: {vitaminA}IU</p>
+            <p>vitaminA: {vitaminA} IU</p>
             <p>vitaminC: {vitaminC}mg</p>
             <p>folate: {folate}mg</p>
         </div>

@@ -1,10 +1,20 @@
 .navbar {
     display: flex;
-    background-color: black;
+    align-items: center;
+    background-color: #9B4720;
     height: 100px;
     justify-content: center;
+    font-family: 'Big Shoulders Display';
+    border-bottom: solid 2px;
+}
+
+#logo {
+    width: 200px;
+    margin-right: -2.5rem;
 }
 
 .navbar > h1 {
-    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    color: #AD9230;
 }

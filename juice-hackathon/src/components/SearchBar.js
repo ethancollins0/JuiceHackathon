@@ -12,15 +12,16 @@ export default class SearchBar extends Component {
         })
     }
 
-    handleSubmit = () => {
+    handleSubmit = (event) => {
+        event.preventDefault()
         this.props.filter(this.state.input)
     }
 
     render(){
         return(
             <form onSubmit={this.handleSubmit}>
-                <label>Search</label>
-                <input type='text' name='input' value={this.state.input} onChange={this.handleChange} /> 
+                <label></label>
+                <input type='text' name='input' placeholder="Search" value={this.state.input} onChange={this.handleChange} />
             </form>
         )
     }

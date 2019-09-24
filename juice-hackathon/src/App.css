@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+
 .app {
-    background-color: grey;
-    height: 10000px;
+    background-image: linear-gradient(#03330B, #9B4720);
+    padding-bottom: 50px;
+}
+
+form {
+    padding: 1.5rem;
+    padding-bottom: 1rem;;
+}
+
+form > input {
+    font-size: 18px;
+    margin-left: 270px;
+    width: 800px;
+    height: 20px;
 }
