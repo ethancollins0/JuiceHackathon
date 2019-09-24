@@ -1,0 +1,27 @@
+.card {
+    width: 300px;
+    height: max-content;
+    min-height: 300px;
+    box-shadow: 0 12px 12px -6px gray;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: 1px solid green;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 75%;
+    margin: 20px;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.count {
+    height: 20px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
