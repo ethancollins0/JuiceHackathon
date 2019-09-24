@@ -2,11 +2,11 @@ import React from 'react'
 import Fruit from './Fruit'
 import './Containers.css'
 
-const FruitContainer = ({ fruits, changeFruit }) => {
+const FruitContainer = ({ fruits, changeFruit, updateJuice }) => {
     
     const renderFruits = () => {
         return fruits.map(fruit => {
-            return <Fruit fruit={fruit} changeFruit={changeFruit}/>
+            return <Fruit fruit={fruit} changeFruit={changeFruit} updateJuice={updateJuice} />
         })
     }
 

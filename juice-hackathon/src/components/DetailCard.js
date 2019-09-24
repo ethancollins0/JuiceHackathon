@@ -33,7 +33,6 @@ const DetailCard = ({ fruit }) => {
             <p>folate: {folate}mg</p>
         </div>
     )
-
 }
 
 export default DetailCard
